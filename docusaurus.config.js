@@ -2,13 +2,13 @@
 module.exports = {
   title: 'Amorphic Workshop',
   tagline: 'This workshop enables you to create a fully operational solutions',
-  url: 'https://amorphicdata.com',
-  baseUrl: '/',
+  url: 'https://amorphicdata.github.io',
+  baseUrl: '/workshop/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/core/favicon.ico',
-  organizationName: 'Cloudwick', // Usually your GitHub org/user name.
-  projectName: 'amorphic-workshop', // Usually your repo name.
+  organizationName: 'AmorphicData', // Usually your GitHub org/user name.
+  projectName: 'workshop', // Usually your repo name.
   themeConfig: {
     sidebarCollapsible: true,
     hideableSidebar: true,
