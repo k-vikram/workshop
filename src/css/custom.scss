@@ -1,0 +1,133 @@
+/* stylelint-disable docusaurus/copyright-header */
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-blue: #0961bc;
+  --ifm-color-primary: #2f7fd3;
+  --ifm-color-primary-dark: rgb(33, 175, 144);
+  --ifm-color-primary-darker: rgb(31, 165, 136);
+  --ifm-color-primary-darkest: rgb(26, 136, 112);
+  --ifm-color-primary-light: rgb(70, 203, 174);
+  --ifm-color-primary-lighter: rgb(102, 212, 189);
+  --ifm-color-primary-lightest: rgb(146, 224, 208);
+  --ifm-code-font-size: 95%;
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgb(72, 77, 91);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+.footer__copyright {
+  // margin-top: 50px;
+}
+
+.hero{
+  img.amorphic-glass {
+    width: 35%;
+    float: right;
+  }
+}
+
+main.main-blue {
+  background-color: var(--ifm-color-primary);
+  color: white;
+}
+
+
+.table-of-contents {
+  li {
+    a {
+      color: var(--ifm-color-primary-dark);
+      &:hover {
+        color: var(--ifm-color-primary-darkest);
+      }
+    }
+  }
+}
+
+img[alt="Congratulations"],
+img[alt="PAT"] {
+  width: 50%;
+  border: none;
+  background: none;
+  display: block;
+  margin: 15px auto;
+
+}
+
+@for $i from 0 through 15 {
+  .fs-#{$i} {
+    font-size: #{1 + $i*0.2}rem;
+  }
+  .fw-#{$i*100} {
+    font-weight: #{$i*100};
+  }
+  .m-#{$i}{
+    margin: #{$i}px;
+  }
+  .mt-#{$i}{
+    margin-top: #{$i}px;
+  }
+  .mb-#{$i}{
+    margin-bottom: #{$i}px;
+  }
+  .mr-#{$i}{
+    margin-right: #{$i}px;
+  }
+  .ml-#{$i}{
+    margin-left: #{$i}px;
+  }
+  .m-#{$i}-rem{
+    margin: #{$i}rem;
+  }
+  .mt-#{$i}-rem{
+    margin-top: #{$i}rem;
+  }
+  .mb-#{$i}-rem{
+    margin-bottom: #{$i}rem;
+  }
+  .mr-#{$i}-rem{
+    margin-right: #{$i}rem;
+  }
+  .ml-#{$i}-rem{
+    margin-left: #{$i}rem;
+  }
+  .p-#{$i}{
+    padding: #{$i}px;
+  }
+  .pt-#{$i}{
+    padding-top: #{$i}px;
+  }
+  .pb-#{$i}{
+    padding-bottom: #{$i}px;
+  }
+  .pr-#{$i}{
+    padding-right: #{$i}px;
+  }
+  .pl-#{$i}{
+    padding-left: #{$i}px;
+  }
+  .p-#{$i}-rem{
+    padding: #{$i}rem;
+  }
+  .pt-#{$i}-rem{
+    padding-top: #{$i}rem;
+  }
+  .pb-#{$i}-rem{
+    padding-bottom: #{$i}rem;
+  }
+  .pr-#{$i}-rem{
+    padding-right: #{$i}rem;
+  }
+  .pl-#{$i}-rem{
+    padding-left: #{$i}rem;
+  }
+}
