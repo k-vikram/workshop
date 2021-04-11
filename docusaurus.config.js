@@ -7,8 +7,8 @@ module.exports = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/core/favicon.ico',
-  organizationName: 'AmorphicData', // Usually your GitHub org/user name.
-  projectName: 'workshop', // Usually your repo name.
+  organizationName: 'AmorphicData',
+  projectName: 'workshop',
   themeConfig: {
     sidebarCollapsible: true,
     hideableSidebar: true,
@@ -98,15 +98,7 @@ module.exports = {
       darkTheme: require('prism-react-renderer/themes/vsLight')
     },
     colorMode: {
-      disableSwitch: true,
-    },
-    announcementBar: {
-      id: 'support_us',
-      content:
-        'We are looking to revamp our docs, please fill <a target="_blank" rel="noopener noreferrer" href="https://amorphicdata.com">this survey</a>',
-      backgroundColor: '#0961bc',
-      textColor: '#ffffff',
-      isCloseable: true
+      disableSwitch: false,
     },
   },
   presets: [
@@ -114,9 +106,6 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-        },
-        finance: {
           sidebarPath: require.resolve('./sidebars.js'),
         },
         theme: {
